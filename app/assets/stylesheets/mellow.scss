@@ -1,0 +1,564 @@
+// Place all the styles related to the Mellow controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+font-family: poppins;
+background-color: rgba(151,151,151,0.03);
+}
+
+ul{
+  list-style: none;
+}
+
+.menu-header{
+  flex: 1;
+ margin-top: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-section{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #eec593;
+}
+
+.logo img{
+  margin: 25px;
+  height: 70px;
+}
+
+.header-section .menu-header{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-section .menu-header li a:hover{
+color: #da5e89;
+}
+
+.header-section .menu-header li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 0px;
+  padding: 0 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+.download{
+ margin: 30px;
+ width: 190px;
+ text-align: center;
+ border: 2px solid #da5e89;
+ line-height: 50px;
+ border-radius: 30px;
+}
+
+.download:hover{
+background: #da5e89;
+
+}
+
+.download .download-app{
+  text-decoration: none;
+  list-style: none;
+  color: #da5e89;
+}
+
+ .download-app:hover
+ {
+  background: #da5e89;
+   color: white;
+ }
+
+.container_poster{
+    background-color: #f8eee3;
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.container_poster-image{
+  margin-top: 60px;
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poster-image{
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 30px;
+  width: 700px;
+  overflow: hidden;
+  height: 450px;
+}
+
+
+.container_poster-text{
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    width: 450px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: #eec593;
+}
+
+.poster-text_profile{
+  border: 1px solid #f8eee3;
+  width: 24rem;
+  height: 5.5rem;
+  margin: 2rem;
+  border-radius: 1.5rem;
+  background: #f8eee3;
+  position: relative;
+}
+
+.images-1{
+  position: absolute;
+  border-radius: 50%;
+  margin: 5px;
+  border: 3px solid #135d7a;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.heading-primary{
+  margin-bottom: 60px;
+  margin-left: 90px;
+}
+
+.heading-primary_main{
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #da5e89;
+}
+
+
+.heading-primary_sub{
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #135d7a;
+}
+
+
+
+.text-profile_title{
+padding-bottom: 10px;
+font-size: 12px;
+display: block;
+}
+
+.text-profile_main{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.text-profile_sub{
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.text-profile_click{
+  display: block;
+  padding-top: 10px;
+}
+
+.btn-Save{
+  position: absolute;
+  margin: 5%;
+  padding: 20px 30px;
+  left: 65px;
+  border: 1px solid #eec593;
+  background: #135d7a;
+  color: white;
+}
+
+.btn-Save:hover{
+  background: #f8eee3;
+  color: #135d7a;
+  border: 1px solid #135d7a;
+  font-weight: 600;
+}
+
+.title-about{
+height: 28rem;
+background: #135d7a;
+position: relative;
+}
+
+.item-nav_click li a{
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-about_border{
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+  width: 60rem;
+  height: 23rem;
+  background: #f8eee3;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  border-radius: 2rem;
+}
+
+.about_border{
+  width: 340px;
+  height: 45px;
+  border: 1px solid #da5e89;
+  background: #da5e89;
+  position: relative;
+  left: 30%;
+  top: 8%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 20px
+}
+
+.button-left{
+  margin-top: -1px;
+  height: 45px;
+  width: 170px;
+  background: #f8eee3;
+  border: 1px solid #da5e89;
+  border-radius: 0px 20px 20px 0px;
+  color: #da5e89;
+}
+
+.button-left:active{
+  background: #da5e89;
+  color: white;
+}
+
+.img-2{
+border-radius: 50%;
+border: 3px solid #135d7a;
+width: 4.2rem;
+height: 4.2rem;
+}
+
+.images_text-main{
+  font-size: 14px;
+}
+
+.span-right{
+  color: white;
+  padding-left: 30px;
+}
+
+.about-images{ 
+  display: flex;
+  margin: 40px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.about-images_text{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #135d7a;
+}
+
+.about-description_main{
+  display: block;
+  font-size: 12px;
+  padding: 4px;
+  color: black;
+}
+
+.click-logo_a {
+ float: left;
+ padding: 0 67px;
+}
+
+.card-title{
+  color: #da5e89;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-text{
+text-align: center;
+}
+
+.card-body{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  background-color: #f8eee3;
+  border-radius: 5px;
+  border: 1px solid #eec593;
+}
+
+.about-description_sub{
+  display: block;
+  font-size: 12px;
+  padding: 4px;
+  color: black;
+}
+
+.about-description_title{
+  display: block;
+  font-size: 12px;
+  padding: 4px;
+  color: black;
+
+}
+
+.about-description{
+  margin-left: 40px;
+}
+
+.footer-since{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #12123c;
+  position: relative;
+}
+
+.since_main{
+  color: white;
+}
+
+.droplist-like{
+  height: 120rem;
+  background: #f8eee3;
+}
+
+.droplist-like_content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.content-text{
+  font-style:inherit;
+  font-size: 20px;
+  padding-top: 40px;
+  color: #135d7a;
+  font-weight: 700;
+}
+
+.text_main{
+  font-style:inherit;
+  font-size: 20px;
+  padding-top: 40px;
+  color: #135d7a;
+  font-weight: 700;
+}
+.border-hr{
+width: 60px;
+border: 1px solid #eec593;
+margin-left: 4.5rem;
+
+}
+
+.product-hr{
+  width: 60px;
+border: 1px solid #eec593;
+margin-left: 4.5rem;
+}
+
+.slider{
+ border-radius: 10px;
+  border: 1px solid black;
+}
+
+.slider-img{
+  width: 350px;
+  height: 250px;
+}
+
+// .box{
+//   width: 300px;
+//   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+//   border-radius: 10px;
+//   overflow: hidden;
+//   position: absolute;
+//   margin-top: 130px;
+//   border: 1px solid black;
+//   margin:25px;
+// }
+.product-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.p-img-all{
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.p-img-front{
+  width: 100%;
+  height: 80%;
+}
+// .all-box{
+//   display: flex;
+//   flex-wrap: nowrap;
+//   flex-direction: row;
+//   justify-content: center;
+// }
+.droplist-p-text{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.Blog-title{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: #da5e89;
+  font-style:inherit;
+  font-size: 35px;
+  font-weight: 700;
+  
+}
+
+
+
+.b-hr{
+  border: 2px solid #135d7a;
+  width: 60px;
+  margin-left: 65px;
+}
+.sp-b{
+  position: absolute;
+  margin-top: 220px;
+}
+
+.sp-b-text{
+  color: white;
+  font-size: 14px;
+}
+.b-img_content{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 35px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.b-text-1{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+  position: absolute;
+}
+
+.text_date{
+margin-left: 30px;
+}
+
+.images-bl-1{
+  border: 1px solid #eec593;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+  
+}
+.b-images{
+  width: 100%;
+  height: 100%;
+}
+.blogs-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+.b_text-author{
+  color: #da5e89;
+  font-size: 14px;
+}
+
+.text_date-txt{
+  color: #da5e89;
+  font-size: 14px;
+}
+
+.app{
+  height: 200px;
+  background: #eec593;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.app-logo{
+width: 100%;
+height: 100%;
+}
+.app-text_ber{
+  display: block;
+  margin-left: 24px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.app-text_aft{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.app-images{
+  border: 1px solid black;
+  width: 200px;
+  height: 60px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.logo-app3{
+  width: 100%;
+  height: 80px;
+  background-color:#f8eee3;
+}
+
+.logo3 img{
+  height:70px;
+}
