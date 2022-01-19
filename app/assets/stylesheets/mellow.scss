@@ -292,7 +292,8 @@ height: 4.2rem;
   color: black;
 }
 
-.click-logo_a {
+.click-logo_a { 
+ color: #135d7a;
  float: left;
  padding: 0 67px;
 }
@@ -561,4 +562,11 @@ height: 100%;
 
 .logo3 img{
   height:70px;
+}
+
+.icon{
+  background-color: #135d7a;
+   margin: 10px;
+  height: 19px;
+  color: #f8eee3;
 }
