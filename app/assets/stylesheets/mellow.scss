@@ -134,6 +134,7 @@ background: #da5e89;
 }
 
 .images-1{
+  object-fit: cover;
   position: absolute;
   border-radius: 50%;
   margin: 5px;
@@ -224,6 +225,10 @@ position: relative;
   border-radius: 2rem;
 }
 
+.card-img-top{
+ border: 1px solid #eec593;
+}
+
 .about_border{
   width: 340px;
   height: 45px;
@@ -256,6 +261,8 @@ position: relative;
 }
 
 .img-2{
+object-fit: cover;
+object-position: 80%;
 border-radius: 50%;
 border: 3px solid #135d7a;
 width: 4.2rem;
@@ -545,8 +552,8 @@ height: 100%;
 
 .app-images{
   border: 1px solid black;
-  width: 200px;
-  height: 60px;
+  width: 147px;
+  height: 44px;
   border-radius: 4px;
   overflow: hidden;
   margin-top: 20px;
